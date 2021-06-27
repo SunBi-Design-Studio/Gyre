@@ -11,7 +11,8 @@ Edited By : Anjit pariyar
 */
 /*  [ YOUR COLOR GOES HERE ] */
 :root {
-  --primary-color: #846add;
+  --primary-color: #fe6103;
+  --secondary-color: #303030;
 }
 
 /* [ FONT ] */
@@ -208,7 +209,9 @@ Edited By : Anjit pariyar
   font-family: Lato-Regular;
   font-size: 12px;
   line-height: 1;
-  color: var(--primary-color);
+  /* color: var(--primary-color);
+   */
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -220,11 +223,11 @@ Edited By : Anjit pariyar
 }
 
 .s2-txt3 {
-  font-family: Lato-Bold;
+  /* font-family: Lato-Bold; */
   font-size: 15px;
   line-height: 1.4;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -335,9 +338,10 @@ Edited By : Anjit pariyar
 .overlay1 {
   position: relative;
   z-index: 1;
+  background-color: #fc843c;
 }
 .overlay1::before {
-  content: "";
+  /* content: ""; */
   display: block;
   position: absolute;
   z-index: -1;
@@ -351,13 +355,14 @@ Edited By : Anjit pariyar
 /*---------------------------------------------*/
 .how-btn1 {
   border-radius: 35px;
+  color: #fff;
   background-color: var(--primary-color);
   padding-right: 20px;
   padding-left: 20px;
 }
 
 .how-btn1:hover {
-  background-color: #5d43b5;
+  background-color: var(--secondary-color);
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -678,4 +683,29 @@ Edited By : Anjit pariyar
     width: 100%;
   }
   /*---------------------------------------------*/
+}
+
+/* my styles */
+.wrapper {
+  position: relative;
+  padding: 3em;
+  background-color: #ffffff1c;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #3030300f;
+}
+
+.brand {
+  height: 50px;
+  width: auto;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-bottom: auto;
+  margin-bottom: 1.7em;
+}
+.text {
+  font-style: italic;
+}
+b {
+  font-family: Poppins-Bold;
 }
